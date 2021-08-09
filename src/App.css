@@ -1,0 +1,58 @@
+body{
+  background-color: #0079bf;
+}
+.App
+{
+  background-color: #ebecf0;
+  width: 290px;
+  height: 500px;
+  margin: 4px 8px;
+  border-radius: 3px;
+  overflow-y: auto;
+}
+#to-do-form .heading
+{
+  text-align: center;
+  color: #172b4d;
+  font-size: 15px;
+  font-weight: 20px;
+  line-height: 30px;
+  padding: 10px, 0;
+}
+
+#to-do-form input
+{
+  
+  color: #172b4d;
+  cursor: text;
+  height: 40px;
+  padding: 5px;
+  width: 75%;
+  border: 0;
+  resize: vertical;
+  float: none;
+  margin: 5px ;
+}
+#to-do-form input:hover
+{
+  box-shadow: inset 0 0 0 2px #0079bf;
+}
+#to-do-form button
+{
+  background-color: #0079bf;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  height: 40px;
+  width: 50px;
+  resize: vertical;
+  border: 0;
+  margin: 5px 3px;
+  text-align: center;
+}
+#to-do-form button:hover
+{
+  box-shadow: 2px #0079bf;
+}
+
